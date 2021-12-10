@@ -11,23 +11,23 @@ const d = new Date();
 let day = d.getDay();
 
 if (day == 0){
-    openinghourp.innerHTML = opensun;
+    openinghourp.HTML = opensun;
 }
 if (day == 1){
-    openinghourp.innerHTML = openmon;
+    openinghourp.HTML = openmon;
 }
 if (day == 2){
-    openinghourp.innerHTML = opentue;
+    openinghourp.HTML = opentue;
 }
 if (day == 3){
-    openinghourp.innerHTML = openwed;
+    openinghourp.HTML = openwed;
 }
 if (day == 4){
-    openinghourp.innerHTML = openthu;
+    openinghourp.HTML = openthu;
 }
 if (day == 5){
-    openinghourp.innerHTML = openfri;
+    openinghourp.HTML = openfri;
 }
 if (day == 6){
-    openinghourp.innerHTML = opensat;
+    openinghourp.HTML = opensat;
 }
