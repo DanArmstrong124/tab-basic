@@ -88,7 +88,7 @@ body{
     background: url('../img/im1.jpg');
     background-size: cover;
     display: inline-block;
-    width: 30%;
+    width: 29%;
     height: 150px;
     border-bottom: 3px solid black;
     border-right: 3px solid black;
@@ -97,7 +97,8 @@ body{
 .pub-desc{
     display: inline-block;
     width: 70%;
-    height: 150px;
+    position: relative;
+    top: -80px;
 }
 
 .pub-hours-image{}
