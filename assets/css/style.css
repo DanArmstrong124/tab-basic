@@ -10,6 +10,7 @@ header{
     height: 80px;
     background: #DCA123;
     width: 100%;
+    color: black;
 }
 
 .tab-header-branding{
@@ -42,4 +43,6 @@ header{
 /*Body*/
 body{
     font-family: 'Lato', sans-serif;
+    background-color: #414347;
+    color: white;
 }
