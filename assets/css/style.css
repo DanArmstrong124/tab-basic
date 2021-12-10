@@ -81,3 +81,21 @@ body{
 .phone{}
 
 .email{}
+
+.pub-desc-image{
+    background: url('../img/im1.jpg');
+    background-size: cover;
+}
+
+.pub-image-one{}
+
+.pub-desc{}
+
+.pub-hours-image{}
+
+.pub-hours{}
+
+.pub-image-two{
+    background: url('../img/im2.jpg');
+    background-size: cover;
+}
