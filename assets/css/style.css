@@ -88,10 +88,16 @@ body{
     background: url('../img/im1.jpg');
     background-size: cover;
     display: inline-block;
+    width: 30%;
+    height: 150px;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
 }
 
 .pub-desc{
     display: inline-block;
+    width: 70%;
+    height: 150px;
 }
 
 .pub-hours-image{}
