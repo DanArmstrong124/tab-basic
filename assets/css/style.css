@@ -97,7 +97,7 @@ body{
     text-align: center;
 }
 
-.pub-hours-image{}
+.pub-hours-image{margin-bottom: 30px;}
 
 .pub-hours-image i {
     color: #DCA123;
