@@ -106,6 +106,7 @@ body{
 
 .pub-hours{
     display: inline-block;
+    text-transform: uppercase;
 }
 
 .pub-image-two{

@@ -1,33 +1,48 @@
-let openinghourp = document.getElementById('openinghour');
-var openmon = "12pm -> 9pm";
-var opentue = "12pm -> 9pm";
-var openwed = "1pm -> 10pm";
-var openthu = "1pm -> 11pm";
-var openfri = "10am -> 1am";
-var opensat = "11am -> 12am";
-var opensun = "2pm -> 7:30pm";
+let openinghourstartp = document.getElementById('openinghourstart');
+let openinghourclosep = document.getElementById('openinghourclose');
+var openmons = "12pm";
+var opentues = "12pm";
+var openweds = "1pm";
+var openthus = "1pm";
+var openfris = "10am";
+var opensats = "11am";
+var opensuns = "2pm";
+var openmonc = "9pm";
+var opentuec = "9pm";
+var openwedc = "10pm";
+var openthuc = "11pm";
+var openfric = "1am";
+var opensatc = "12am";
+var opensunc = "7:30pm";
 
 const d = new Date();
 let day = d.getDay();
 
 if (day == 0){
-    openinghourp.HTML = opensun;
+    openinghourstartp.HTML = opensuns;
+    openinghourclosep.HTML = opensunc;
 }
 if (day == 1){
-    openinghourp.HTML = openmon;
+    openinghourstartp.HTML = openmons;
+    openinghourclosep.HTML = openmonc;
 }
 if (day == 2){
-    openinghourp.HTML = opentue;
+    openinghourstartp.HTML = opentues;
+    openinghourclosep.HTML = opentuec;
 }
 if (day == 3){
-    openinghourp.HTML = openwed;
+    openinghourstartp.HTML = openweds;
+    openinghourclosep.HTML = openwedc;
 }
 if (day == 4){
-    openinghourp.HTML = openthu;
+    openinghourstartp.HTML = openthus;
+    openinghourclosep.HTML = openthuc;
 }
 if (day == 5){
-    openinghourp.HTML = openfri;
+    openinghourstartp.HTML = openfris;
+    openinghourclosep.HTML = openfric;
 }
 if (day == 6){
-    openinghourp.HTML = opensat;
+    openinghourstartp.HTML = opensats;
+    openinghourclosep.HTML = opensatc;
 }
