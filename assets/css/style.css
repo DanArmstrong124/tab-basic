@@ -91,6 +91,7 @@ body{
     height: 150px;
     border-bottom: 3px solid black;
     border-right: 3px solid black;
+    display: inline-block;
 }
 
 .pub-desc{
@@ -113,6 +114,9 @@ body{
     background: url('../img/im2.jpg');
     background-size: cover;
     display: inline-block;
+    height: 150px;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
 }
 
 #openinghourstart{display: inline;}
