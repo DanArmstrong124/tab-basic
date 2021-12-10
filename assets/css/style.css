@@ -15,8 +15,12 @@ header{
     width: 60px;
     height: 60px;
     background: url('../img/dancodes.png');
+    background-size: cover;
+    display: inline-block;
 }
 
-.menu{}
+.menu{
+    display: inline-block;
+}
 
 .menu-item{}
