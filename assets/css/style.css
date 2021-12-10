@@ -89,9 +89,14 @@ body{
     background: url('../img/im1.jpg');
     background-size: cover;
     height: 150px;
+    width: 49%;
     border-bottom: 3px solid black;
     border-right: 3px solid black;
     display: inline-block;
+}
+
+.images-div {
+    margin: auto;
 }
 
 .pub-desc{
@@ -115,6 +120,7 @@ body{
     background-size: cover;
     display: inline-block;
     height: 150px;
+    width: 49%;
     border-bottom: 3px solid black;
     border-right: 3px solid black;
 }
