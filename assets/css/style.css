@@ -12,6 +12,7 @@ header{
     width: 100%;
     color: black;
     top: 0px;
+    z-index: 5;
 }
 
 .tab-header-branding{
