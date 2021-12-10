@@ -9,7 +9,7 @@ header{
     width: 100%;}
 
 .logo{
-    position: relative;
+    position: fixed;
     top: 10px;
     left: 50px;
     width: 60px;
@@ -17,6 +17,12 @@ header{
     background: url('../img/dancodes.png');
     background-size: cover;
     display: inline-block;
+}
+
+.name{
+    position: fixed;
+    top: 25px;
+    left: 135px;
 }
 
 .menu{
