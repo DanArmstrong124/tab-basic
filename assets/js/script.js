@@ -19,30 +19,30 @@ const d = new Date();
 let day = d.getDay();
 
 if (day == 0){
-    openinghourstartp.HTML = opensuns;
-    openinghourclosep.HTML = opensunc;
+    openinghourstartp.innerText = opensuns;
+    openinghourclosep.innerText = opensunc;
 }
 if (day == 1){
-    openinghourstartp.HTML = openmons;
-    openinghourclosep.HTML = openmonc;
+    openinghourstartp.innerText = openmons;
+    openinghourclosep.innerText = openmonc;
 }
 if (day == 2){
-    openinghourstartp.HTML = opentues;
-    openinghourclosep.HTML = opentuec;
+    openinghourstartp.innerText = opentues;
+    openinghourclosep.innerText = opentuec;
 }
 if (day == 3){
-    openinghourstartp.HTML = openweds;
-    openinghourclosep.HTML = openwedc;
+    openinghourstartp.innerText = openweds;
+    openinghourclosep.innerText = openwedc;
 }
 if (day == 4){
-    openinghourstartp.HTML = openthus;
-    openinghourclosep.HTML = openthuc;
+    openinghourstartp.innerText = openthus;
+    openinghourclosep.innerText = openthuc;
 }
 if (day == 5){
-    openinghourstartp.HTML = openfris;
-    openinghourclosep.HTML = openfric;
+    openinghourstartp.innerText = openfris;
+    openinghourclosep.innerText = openfric;
 }
 if (day == 6){
-    openinghourstartp.HTML = opensats;
-    openinghourclosep.HTML = opensatc;
+    openinghourstartp.innerText = opensats;
+    openinghourclosep.innerText = opensatc;
 }
