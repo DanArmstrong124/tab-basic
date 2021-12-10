@@ -46,3 +46,10 @@ body{
     background-color: #414347;
     color: white;
 }
+
+.pub-image-landing{
+    background: url("../img/ironmaster.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
