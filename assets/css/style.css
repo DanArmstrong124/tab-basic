@@ -88,23 +88,21 @@ body{
 .pub-image-one{
     background: url('../img/im1.jpg');
     background-size: cover;
-    display: inline-block;
-    width: 29%;
     height: 150px;
     border-bottom: 3px solid black;
     border-right: 3px solid black;
 }
 
 .pub-desc{
-    display: inline-block;
-    width: 70%;
-    position: relative;
-    top: -80px;
+    text-align: center;
 }
 
 .pub-hours-image{}
 
-.pub-hours-image i {}
+.pub-hours-image i {
+    color: #DCA123;
+    font-size: 25px;
+}
 
 .pub-hours{
     display: inline-block;
