@@ -104,6 +104,8 @@ body{
 
 .pub-hours-image{}
 
+.pub-hours-image i {}
+
 .pub-hours{
     display: inline-block;
     text-transform: uppercase;
