@@ -82,20 +82,26 @@ body{
 
 .email{}
 
-.pub-desc-image{
+.pub-desc-image{}
+
+.pub-image-one{
     background: url('../img/im1.jpg');
     background-size: cover;
+    display: inline-block;
 }
 
-.pub-image-one{}
-
-.pub-desc{}
+.pub-desc{
+    display: inline-block;
+}
 
 .pub-hours-image{}
 
-.pub-hours{}
+.pub-hours{
+    display: inline-block;
+}
 
 .pub-image-two{
     background: url('../img/im2.jpg');
     background-size: cover;
+    display: inline-block;
 }
