@@ -2,9 +2,20 @@
 .tac{text-align: center;}
 
 /*Header*/
-header{}
+header{
+    position: fixed;
+    height: 80px;
+    background: #DCA123;
+    width: 100%;}
 
-.logo{}
+.logo{
+    position: relative;
+    top: 10px;
+    left: 50px;
+    width: 60px;
+    height: 60px;
+    background: url('../img/dancodes.png');
+}
 
 .menu{}
 
