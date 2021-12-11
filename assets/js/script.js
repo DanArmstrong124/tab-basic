@@ -56,23 +56,43 @@ var pi1modal = document.getElementById('img1modal');
 var pi2modal = document.getElementById('img2modal');
 var close1 = document.getElementById('close-modal1');
 var close2 = document.getElementById('close-modal2');
+var mdc1 = document.getElementById('mdc1');
+var mdc2 = document.getElementById('mdc2');
+var mbr1 = document.getElementById('mbr1');
+var mbr2 = document.getElementById('mbr2');
 
 pi1btn.addEventListener('click', function(){
     pi1modal.classList.remove('closed');
     pi1modal.classList.add('open');
+    mdc1.classList.add('mdcz-after');
+    mdc1.classList.remove('mdcz');
+    mbr1.classList.add('mbrz-after');
+    mbr1.classList.remove('mbrz');
 });
 
 pi2btn.addEventListener('click', function(){
     pi2modal.classList.remove('closed');
     pi2modal.classList.add('open');
+    mdc2.classList.add('mdcz-after');
+    mdc2.classList.remove('mdcz');
+    mbr2.classList.add('mbrz-after');
+    mbr2.classList.remove('mbrz');
 });
 
 close1.addEventListener('click', function(){
     pi1modal.classList.remove('open');
     pi1modal.classList.add('closed');
+    mdc1.classList.remove('mdcz-after');
+    mdc1.classList.add('mdcz');
+    mbr1.classList.remove('mbrz-after');
+    mbr1.classList.add('mbrz');
 });
 
 close2.addEventListener('click', function(){
     pi2modal.classList.remove('open');
     pi2modal.classList.add('closed');
+    mdc2.classList.remove('mdcz-after');
+    mdc2.classList.add('mdcz');
+    mbr2.classList.remove('mbrz-after');
+    mbr2.classList.add('mbrz');
 });
