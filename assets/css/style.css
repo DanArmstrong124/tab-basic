@@ -152,6 +152,24 @@ body{
     margin-bottom: 0px;
 }
 
+.divider-camera{
+    text-align: center;
+}
+
+.divider-camera i {
+    position: relative;
+    top: -18px;
+    font-size: 32px;
+    color: #DCA123;
+    background-color: #414347;
+}
+
+.divider-camera hr {
+    height: 3px;
+    margin: 50px;
+    margin-bottom: 0px;
+}
+
 .pub-img {
     border-radius: 2em;
     margin-top: 7px;
