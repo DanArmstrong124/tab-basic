@@ -212,6 +212,7 @@ body{
     left: 50%;
     transform: translate(-50%, 25%);
     z-index: 7;
+    top: 0;
 }
 
 .modal-background-remover {
@@ -219,4 +220,6 @@ body{
     height: 100%;
     background: #41434778;
     z-index:6;
+    position: fixed;
+    top: 0;
 }
