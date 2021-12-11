@@ -54,6 +54,8 @@ var pi1btn = document.getElementById('pi1');
 var pi2btn = document.getElementById('pi2');
 var pi1modal = document.getElementById('img1modal');
 var pi2modal = document.getElementById('img2modal');
+var close1 = document.getElementById('close-modal1');
+var close2 = document.getElementById('close-modal2');
 
 pi1btn.addEventListener('click', function(){
     pi1modal.classList.remove('closed');
@@ -63,4 +65,14 @@ pi1btn.addEventListener('click', function(){
 pi2btn.addEventListener('click', function(){
     pi2modal.classList.remove('closed');
     pi2modal.classList.add('open');
+});
+
+close1.addEventListener('click', function(){
+    pi1modal.classList.remove('open');
+    pi1modal.classList.add('closed');
+});
+
+close2.addEventListener('click', function(){
+    pi2modal.classList.remove('open');
+    pi2modal.classList.add('closed');
 });
