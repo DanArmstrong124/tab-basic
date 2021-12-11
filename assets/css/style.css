@@ -104,13 +104,14 @@ body{
 
 .pub-desc{
     text-align: center;
+    margin-top: 25px;
 }
 
 .pub-hours-image{margin-bottom: 30px;}
 
 .pub-hours-image i {
     color: #DCA123;
-    font-size: 25px;
+    font-size: 17px;
 }
 
 .pub-hours{
