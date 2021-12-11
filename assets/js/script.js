@@ -46,3 +46,21 @@ if (day == 6){
     openinghourstartp.innerText = opensats;
     openinghourclosep.innerText = opensatc;
 }
+
+
+//Pub images
+
+var pi1btn = document.getElementById('pi1');
+var pi2btn = document.getElementById('pi2');
+var pi1modal = document.getElementById('img1modal');
+var pi2modal = document.getElementById('img2modal');
+
+pi1btn.addEventListener('click', function(){
+    pi1modal.classList.remove('closed');
+    pi1modal.classList.add('open');
+});
+
+pi2btn.addEventListener('click', function(){
+    pi2modal.classList.remove('closed');
+    pi2modal.classList.add('open');
+});

@@ -4,6 +4,9 @@
 /*Special*/
 .tac{text-align: center;}
 
+.closed{opacity: 0; transition: opacity 1s;}
+.open{opacity: 1; transition: opacity 1s;}
+
 /*Header*/
 header{
     position: fixed;
