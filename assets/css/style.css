@@ -207,7 +207,7 @@ body{
 .modal-container {
     width:80%;
     height: 500px;
-    background: gold;
+    background: #DCA123;
     position: fixed;
     left: 50%;
     transform: translate(-50%, 25%);
@@ -244,3 +244,17 @@ body{
     top: 10px;
     font-size: 30px;
 }
+
+#mi1 {
+
+}
+
+#mi2 {
+
+}
+
+.modal-title{}
+
+.modal-image{}
+
+.modal-desc{}
