@@ -247,10 +247,14 @@ body{
 
 #mi1 {
     background: url("../img/im1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #mi2 {
     background: url("../img/im2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .modal-title{
@@ -265,10 +269,8 @@ body{
 }
 
 .modal-image{
-    background-size: cover;
     width: 100%;
     height: 100%;
-    background-repeat: no-repeat;
 }
 
 .modal-desc{
