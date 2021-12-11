@@ -237,3 +237,10 @@ body{
 .mdcz-after {
     display: block;
 }
+
+.close-modal-times {
+    position: fixed;
+    right: 20px;
+    top: 10px;
+    font-size: 30px;
+}
