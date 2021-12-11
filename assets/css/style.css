@@ -249,12 +249,14 @@ body{
     background: url("../img/im1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 #mi2 {
     background: url("../img/im2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .modal-title{
