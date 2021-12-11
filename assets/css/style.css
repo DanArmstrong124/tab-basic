@@ -188,7 +188,8 @@ body{
 }
 
 .pub-image-hover i{
-    font-size: 25px;
+    font-size: 35px;
+    margin-top: 75px;
     color: white;
 }
 
