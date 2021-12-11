@@ -97,6 +97,9 @@ body{
 
 .images-div {
     margin: auto;
+    background: #DCA123;
+    margin-top: 17px;
+    border: 1px solid black;
 }
 
 .pub-desc{
@@ -147,4 +150,9 @@ body{
     height: 3px;
     margin: 50px;
     margin-bottom: 0px;
+}
+
+.pub-img {
+    border-radius: 2em;
+    margin-top: 7px;
 }
