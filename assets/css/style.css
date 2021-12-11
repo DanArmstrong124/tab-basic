@@ -200,3 +200,11 @@ body{
     opacity: 1;
     transition: opacity 0.5s;
 }
+
+/*Modal*/
+
+.modal-container {
+    width:80%;
+    height: 500px;
+    background: gold;
+}
