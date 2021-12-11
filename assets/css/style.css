@@ -155,4 +155,6 @@ body{
 .pub-img {
     border-radius: 2em;
     margin-top: 7px;
+    width: 37%;
+    background-size: contain;
 }
