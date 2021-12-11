@@ -183,6 +183,7 @@ body{
     background: #41434778;
     text-align: center;
     display: none;
+    border-radius: 2em;
     transition: display 0.5s;
 }
 
