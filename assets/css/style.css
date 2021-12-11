@@ -246,11 +246,15 @@ body{
 }
 
 #mi1 {
-
+    background: url("../img/im1.jpg");
+    background-size: contain;;
+    width: 100%;
 }
 
 #mi2 {
-
+    background: url("../img/im2.jpg");
+    background-size: contain;
+    width: 100%;
 }
 
 .modal-title{}
