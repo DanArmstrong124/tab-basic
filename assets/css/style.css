@@ -4,8 +4,8 @@
 /*Special*/
 .tac{text-align: center;}
 
-.closed{opacity: 0; transition: opacity 1s;}
-.open{opacity: 1; transition: opacity 1s;}
+.closed{opacity: 0 !important; transition: opacity 1s;}
+.open{opacity: 1 !important; transition: opacity 1s;}
 
 /*Header*/
 header{
@@ -223,17 +223,17 @@ body{
 }
 
 .mbrz {
-    z-index: 0;
+    display: none;
 }
 
 .mbrz-after {
-    z-index: 6;
+    display: block;
 }
 
 .mdcz {
-    z-index: 0;
+    display: none;
 }
 
 .mdcz-after {
-    z-index: 7;
+    display: block;
 }
