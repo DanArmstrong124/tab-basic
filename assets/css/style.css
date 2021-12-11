@@ -87,19 +87,13 @@ body{
 
 .pub-image-one{
     background: url('../img/im1.jpg');
-    background-size: cover;
     height: 150px;
-    width: 49%;
-    border-bottom: 3px solid black;
-    border-right: 3px solid black;
     display: inline-block;
 }
 
 .images-div {
     margin: auto;
-    background: #DCA123;
     margin-top: 17px;
-    border: 1px solid black;
 }
 
 .pub-desc{
@@ -120,12 +114,8 @@ body{
 
 .pub-image-two{
     background: url('../img/im2.jpg');
-    background-size: cover;
     display: inline-block;
     height: 150px;
-    width: 49%;
-    border-bottom: 3px solid black;
-    border-right: 3px solid black;
 }
 
 #openinghourstart{display: inline;}
