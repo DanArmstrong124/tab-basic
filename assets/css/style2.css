@@ -14,7 +14,7 @@
     border-radius: 2em;
     width: 20%;
     height: 45px;
-    font-size: 27px;v
+    font-size: 27px;
 }
 
 
@@ -27,4 +27,10 @@
     width: 20%;
     height: 45px;
     font-size: 27px;
+}
+
+@media only screen and (max-width: 711px) {
+    .viewmore{
+        width:60%;
+    }
 }
