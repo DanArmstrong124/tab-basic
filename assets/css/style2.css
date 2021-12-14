@@ -29,7 +29,13 @@
     font-size: 27px;
 }
 
-@media only screen and (max-width: 711px) {
+@media only screen and (max-width: 720px) {
+    .viewmore{
+        width:40%;
+    }
+}
+
+@media only screen and (max-width: 350px) {
     .viewmore{
         width:60%;
     }
