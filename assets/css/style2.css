@@ -4,17 +4,19 @@
     left: 0 !important;
 }
 
-.viewmore {
-    background: #414347;
-    color: white;
-    margin-bottom: 20px;
-    transition: all .5s;
-}
 
-.viewmore:hover{
+.viewmore{
     background: #dca123;
     margin-bottom: 20px;
     border: 2px solid #414347;
     color: #414347;
+    transition: all .5s;
+}
+
+
+.viewmore:hover{
+    background: #414347;
+    color: white;
+    margin-bottom: 20px;
     transition: all .5s;
 }
