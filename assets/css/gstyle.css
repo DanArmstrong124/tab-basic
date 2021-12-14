@@ -12,8 +12,8 @@ body {
   }
   .scope {
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     transform-style: preserve-3d;
     animation: slid 30s linear infinite;
   }
@@ -50,3 +50,25 @@ body {
     }
   }
   
+
+
+  @media only screen and (max-width: 321px) {
+    .scope {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .scope {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 1086px) {
+    .scope {
+        width: 200px;
+        height: 200px;
+    }
+}
